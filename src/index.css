@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+body {
+  line-height: "unset";
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  font-family: "Poppins";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
